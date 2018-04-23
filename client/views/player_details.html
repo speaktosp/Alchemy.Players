@@ -1,0 +1,23 @@
+<div align="right"><a class="btn btn-primary top-logout-btn" href="#/players">Go Back</a></div>
+
+<div class="panel panel-default" ng-init="getPlayer()">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{player.first_name + "'s Profile" }}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-group">
+          <li class="list-group-item">Author: {{player.first_name}}</li>
+          <li class="list-group-item">Author: {{player.last_name}}</li>
+          <li class="list-group-item">Author: {{player.rating}}</li>
+          <li class="list-group-item">Dominant Hand: {{player.handedness}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pull-right">
+  <a href="#/players/edit/{{player.id}}">Edit</a> |  <a href="#" ng-click="removePlayer(player.id)">Delete</a>
+  </div>

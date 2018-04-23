@@ -1,0 +1,17 @@
+{
+  "name": "Player Dashboard",
+  "version": "1.0.0",
+  "description": "Player Dashboard",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "dotenv": "^5.0.1",
+    "express": "*",
+    "mongoose": "*"
+  },
+  "author": "Saravana",
+  "license": "ISC"
+}
